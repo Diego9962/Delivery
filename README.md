@@ -1,4 +1,4 @@
-# delivery-app
+# DELIVERY
 
 Recursos necesarios antes de empezar:
 * Maven
