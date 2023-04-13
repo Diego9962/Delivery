@@ -42,17 +42,17 @@ Debería poder ver la versión actual de Maven.
 
 ```
 ## Ejecutar la aplicación
-1. Dirijase a la ruta raíz del proyecto delivery-app al mismo nivel donde se encuentra el archivo docker-compose.yml y ejecute el comando:
+1. Dirijase a la ruta raíz del proyecto Delivery al mismo nivel donde se encuentra el archivo docker-compose.yml y ejecute el comando:
 ```
 docker-compose up -d
 ```
-O si usa Windwos con Docker Desktop
+O si usa Windows con Docker Desktop
 ```
 docker compose up
 ```
 Para comprobar que esté funcionando corretamente dirijase a su navegador e ingrese la siguiente ruta:
 http://localhost:8080/DELIVERY/hello
 
-Debería ver el mensaje 'Hola' en el navegador
+Debería ver el mensaje 'Hola' en el navegador, Enhorabuena..
  
 
