@@ -50,7 +50,7 @@ public class DetalleOrdenDaoTest {
         
         detalleOrden.setIdOrden(1L);
         detalleOrden.setCantidad(3);
-        detalleOrden.setCodigoProducto("123456");
+        detalleOrden.setCodigoProducto("1234567");
     }
     
     //SHOWLIST

@@ -51,7 +51,7 @@ public class SucursalDaoTest {
         sucursal = new Sucursal();
         
         sucursal.setId(1l);
-        sucursal.setTelefono("1234-1234");
+        sucursal.setTelefono("2447-7777");
     }
 
     //SHOWLIST

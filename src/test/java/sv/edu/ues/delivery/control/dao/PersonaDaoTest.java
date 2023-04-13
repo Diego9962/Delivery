@@ -53,9 +53,9 @@ public class PersonaDaoTest {
     public void setUp(){
         persona = new Persona();
         persona.setId(1L);
-        persona.setNombre("jairo");
-        persona.setApellido("flores");
-        persona.setDireccion("alguna direccion");
+        persona.setNombre("Ivan");
+        persona.setApellido("Portillo");
+        persona.setDireccion("Una cuadra abajo de Climesa");
         persona.setFechaNacimiento(new Date());
     }
 

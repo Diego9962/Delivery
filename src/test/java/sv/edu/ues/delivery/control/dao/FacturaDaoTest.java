@@ -53,7 +53,7 @@ public class FacturaDaoTest {
         factura.setObservaciones("No se registran observaciones a la fecha");
         factura.setAnulada(false);
         //SI DA ALGUN ERROR VERIFICAR ESTO DE LA FECHA
-        Date fecha = Date.valueOf("2020-12-12");
+        Date fecha = Date.valueOf("2022-7-1");
         factura.setFechaEmision(fecha);
     }
     

@@ -52,9 +52,9 @@ public class ProductoDaoTest {
     public void setup(){
         producto = new Producto();
         
-        producto.setCodigo("110110");
-        producto.setNombre("Pizza");
-        producto.setDescripcion("Piza con peperoni ");
+        producto.setCodigo("110110110");
+        producto.setNombre("Tacos");
+        producto.setDescripcion("Tacos al pastor");
         producto.setActivo(true);
         producto.setPrecioCompra(22.5);
         producto.setPrecioVenta(30.0);

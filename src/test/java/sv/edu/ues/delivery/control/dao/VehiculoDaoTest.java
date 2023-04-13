@@ -53,8 +53,8 @@ public class VehiculoDaoTest {
         
         vehiculo.setId(1L);
         vehiculo.setPlaca("P291-341");
-        vehiculo.setPropietario("Oscar Alexander Escalante");
-        vehiculo.setTipoVehiculo("Toyota");
+        vehiculo.setPropietario("Ivan Portillo");
+        vehiculo.setTipoVehiculo("Nissan");
         vehiculo.setActivo(true);
         vehiculo.setComentario("Este es el comentario");
     }

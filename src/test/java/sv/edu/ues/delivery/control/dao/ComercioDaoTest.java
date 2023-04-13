@@ -50,9 +50,9 @@ public class ComercioDaoTest {
         comercio = new Comercio();
         
         comercio.setId(1L);
-        comercio.setNombre("Pizza Hut");
+        comercio.setNombre("taCOS EL REY");
         comercio.setLogo("https://cdn.pixabay.com/photo/2012/05/29/00/43/car-49278_640.jpg");
-        comercio.setDescripcion("venta de comida rapida pizza hut");
+        comercio.setDescripcion("venta de comida rapida de tacos");
         comercio.setActivo(true);
     }
     

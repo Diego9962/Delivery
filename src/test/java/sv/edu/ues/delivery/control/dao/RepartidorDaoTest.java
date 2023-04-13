@@ -54,9 +54,9 @@ public class RepartidorDaoTest {
         
         repartidor.setId(1L);
         repartidor.setNombre("Jose");
-        repartidor.setApellido("Perez");
+        repartidor.setApellido("Zaldivar");
         repartidor.setSalario(365.35);
-        Date fecha = Date.valueOf("2020-12-12");
+        Date fecha = Date.valueOf("2021-7-1");
         repartidor.setFechaNacimiento(fecha);
         repartidor.setObservacion("No hay observaciones");
         repartidor.setActivo(false);

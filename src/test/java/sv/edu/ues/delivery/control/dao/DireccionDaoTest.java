@@ -52,7 +52,7 @@ public class DireccionDaoTest {
         direccion = new Direccion();
         
         direccion.setId(1L);
-        direccion.setDireccion("Local 25 Metrocentro Santa Ana");
+        direccion.setDireccion("Local 2, dos cuadras abajo de Metrocentro Santa Ana");
         direccion.setLatitud(BigDecimal.TEN);
         direccion.setLongitud(BigDecimal.ONE);
 
