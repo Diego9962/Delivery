@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="https://jakarta.ee/xml/ns/persistence"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd"
+    version="3.0">
+
+    <persistence-unit name="delivery-pu" transaction-type="JTA">
+        <jta-data-source>jdbc/delivery</jta-data-source>
+        <class>sv.edu.ues.delivery.entity.Comercio</class>
+        <class>sv.edu.ues.delivery.entity.DetalleOrden</class>
+        <class>sv.edu.ues.delivery.entity.Direccion</class>
+        <class>sv.edu.ues.delivery.entity.Entrega</class>
+        <class>sv.edu.ues.delivery.entity.EntregaHistorial</class>
+        <class>sv.edu.ues.delivery.entity.Factura</class>
+        <class>sv.edu.ues.delivery.entity.Orden</class>
+        <class>sv.edu.ues.delivery.entity.Pago</class>
+        <class>sv.edu.ues.delivery.entity.Persona</class>
+        <class>sv.edu.ues.delivery.entity.Producto</class>
+        <class>sv.edu.ues.delivery.entity.Repartidor</class>
+        <class>sv.edu.ues.delivery.entity.Sucursal</class>
+        <class>sv.edu.ues.delivery.entity.TipoComercio</class>
+        <class>sv.edu.ues.delivery.entity.TipoProducto</class>
+        <class>sv.edu.ues.delivery.entity.Vehiculo</class>
+        <properties>
+            <property name="jakarta.persistence.schema-generation.database.action" value="drop-and-create"/>
+            <property name="jakarta.persistence.schema-generation.create-source" value="metadata"/>
+            <property name="jakarta.persistence.sql-load-script-source" value="META-INF/sql/load.sql"/>
+            <property name="eclipselink.jpa.uppercase-column-names" value="false"/>
+        </properties>
+    </persistence-unit>
+</persistence>
