@@ -27,7 +27,7 @@ public class BaseIntegrationTest {
     protected static Integer payaraPort;
 
     @Container
-    protected static PostgreSQLContainer<?> postgres = new PostgreSQLContainer<>("postgres:alpine3.17")
+    protected static PostgreSQLContainer<?> postgres = new PostgreSQLContainer<>("postgres:15")
             .withDatabaseName("delivery")
             .withPassword("root")
             .withUsername("postgres")
