@@ -40,12 +40,6 @@ mvn -v
 ```
 Debería poder ver la versión actual de Maven.
 
-## Instalando dependencias
-clone al repositorio:
-```
-git clone https://github.com/JairoFlores09/delivery-app.git
-cd delivery-app
-mvn install
 ```
 ## Ejecutar la aplicación
 1. Dirijase a la ruta raíz del proyecto delivery-app al mismo nivel donde se encuentra el archivo docker-compose.yml y ejecute el comando:
@@ -57,9 +51,8 @@ O si usa Windwos con Docker Desktop
 docker compose up
 ```
 Para comprobar que esté funcionando corretamente dirijase a su navegador e ingrese la siguiente ruta:
-http://localhost:8080/delivery/hello
+http://localhost:8080/DELIVERY/hello
 
 Debería ver el mensaje 'Hola' en el navegador
-
-Ya está todo listo para comenzar a codear. Happy Hacking :) 
+ 
 
