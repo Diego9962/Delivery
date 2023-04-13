@@ -16,7 +16,7 @@ import org.junit.jupiter.api.TestInstance;
 
 /**
  *
- * @author dominguez
+ * @author AL17035
  */
 
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
